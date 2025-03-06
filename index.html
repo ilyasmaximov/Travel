@@ -5,7 +5,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Discover Amazing places in Japan</title>
-    <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/style.css">
 
     </body>
@@ -23,16 +22,16 @@
                 <nav class="header_nav">
                     <ul class="header_list">
                         <li class="header_item">
-                            <a href="#!" class="header_link">Articles</a>
+                            <a href="#Articles" class="header_link js-scroll">Articles</a>
                         </li>
                         <li class="header_item">
-                            <a href="#!" class="header_link">Locations</a>
+                            <a href="#Locations" class="header_link js-scroll">Locations</a>
                         </li>
                         <li class="header_item">
-                            <a href="#!" class="header_link">Videos</a>
+                            <a href="#Videos" class="header_link js-scroll">Videos</a>
                         </li>
                         <li class="header_item">
-                            <a href="#!" class="header_link">Sign in</a>
+                            <a href="#!" class="header_link js-scroll">Sign in</a>
                         </li>
                     </ul>
                     <div class="header_nav-close">
@@ -192,7 +191,7 @@
         <!--Places end-->
 
         <!-- Tours start -->
-        <div class="tours">
+        <div class="tours" id="Articles">
             <div class="wrapper_full">
                 <div class="tours_tour tour">
                     <div class="tour_pic">
@@ -233,7 +232,7 @@
 
         <!-- Top start -->
 
-        <section class="top">
+        <section class="top" id="Locations">
             <div class="wrapper_full">
                 <h2 class="top_title section_title">
                     Today top places to visit
@@ -397,14 +396,19 @@
 
         <!-- Videos start -->
 
-        <div class="videos">
+        <div class="videos" id="Videos">
             <div class="videos_wrapper">
-                <div class="video_item"></div>
+                <div class="video_item">
                 <iframe class="video_element" src="https://www.youtube.com/embed/IHv_6HP65VQ?si=YafOEW3XBtEauoFx"
                     title="YouTube video player" frameborder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                     referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    <div class="video_background">
+                        Здесь могло быть видео с ютуба, но УВЫ 
+                    </div>
+                </div>
             </div>
+            
         </div>
 
         <!-- Videos end -->
